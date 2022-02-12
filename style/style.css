@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Yeseva One', cursive;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+}
+
+.ctn-i{
+    padding-left: 22%;
+}
+
+.parte-izq{
+    width: 53.4%;
+    height: 100vh;
+    background: rgba(0, 2, 63, 0.9);
+    color: #fff;
+}
+
+.parte-der{
+    width: 49.1%;
+    height: 100vh;
+}
+
+.img-izq img{
+    width: 150px;
+    cursor: pointer;
+}
+
+.titulo-izq{
+    padding-top: 3.4rem;
+    padding-bottom: 2rem;
+}
+
+.text-izq{
+    padding-bottom: 4rem;
+    width: 370px;
+}
+
+.titulo-izq h3{
+    font-size: 35px;
+    font-weight: normal;
+    line-height: 50px;
+}
+
+.titulo-izq h1{
+    font-size: 70px;
+    font-weight: normal;
+}
+
+.ctn-i p{
+    color:#999;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 20px;
+}
+
+.line{
+    background:#999; 
+    width: 30%;
+    height: 2px;
+    border-radius: 2px;
+    position: relative;
+    bottom: -9px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.line span{
+    background: #ed383d;
+    height: 100%;
+    width: 50%;
+    display: block;
+}
+
+.row{
+    display: flex;
+}
+
+.spr-tre-izq h1{
+    font-family: sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.spr-tre-izq{
+    display: flex;
+    margin-top: 55px;
+}
+
+.spr{
+    width: 200px;
+    margin-right: 80px;
+}
+
+.tre{
+    width: 200px;
+}
+
+.spr p, .tre p{
+    margin-top: 20px;
+}
+
+.parte-izq .shop{
+    width: 25px;
+    margin-right: 60px;
+}
+
+.img-izq{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mid-icon img{
+    width: 150px;
+    position: absolute;
+    top: 18rem;
+    right: 41.3rem;
+    cursor: pointer;
+}
+.barra-nav{
+    display: grid;
+    grid-template-rows: repeat(2, 50%);
+    height: 100vh;
+}
+
+.nav-b{
+    background: rgba(0, 2, 63, 0.9);
+    width: 16.1%;
+}
+
+.parte-der{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.arriba-nav img{
+    width: 25px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+.arriba-nav .search{
+    margin-top: 80px;
+}
+
+.arriba-nav{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.abajo-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background: #ed383d;
+    height: 100%;
+    width: 100%;
+}
+
+.abajo-nav .twitter{
+    margin-bottom: 60px;
+}
+
+.abajo-nav img {
+    margin-bottom: 40px;
+    cursor: pointer;
+}
